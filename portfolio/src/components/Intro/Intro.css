@@ -114,12 +114,10 @@
 		margin-top:150px;
 		}
 
-	.intro-left-mobile{
-/*		height:100vh*/
-	}
  }
 
 @keyframes animate{
 		to{
 			transform: translateY(20px);
 		}
+	}

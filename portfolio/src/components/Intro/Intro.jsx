@@ -10,9 +10,12 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import Crown from '../../../src/img/crown.png'; 
 import Thumb from '../../../src/img/thumbup.png'; 
+import {useEffect} from 'react';
 
 const Intro = () => {
-
+useEffect(() => {
+window.scrollTo(0, 0)
+}, [])
 	return (
 		<div id="intro">
 			<Navbar/>
@@ -23,7 +26,7 @@ const Intro = () => {
 					<h4 className="display-4  text-orange" data-aos="fade-left">Kamar Alam</h4>
 					<p className="font-size-20 text-gray" data-aos="flip-up">I am a Full Stack Fresher Software Engineer from Agra, INDIA. I have a Experience of 4 web Based live Django project.</p>
 					<a href = "mailto: simplykamaralam@gmail.com" className="btn btn-orange px-4 mt-5" data-aos="flip-up">Hire me</a>
-					<div className="intro-icons ms-5" data-aos="fade-up">
+					<div className="intro-icons ms-5" data-aos="zoom-in">
 						<a href="https://github.com/simplykamar" target="blank"><GitHubIcon className="intro-icon"/></a>
 						<a href="https://www.linkedin.com/in/kamaralam/" target="blank"><LinkedInIcon className="intro-icon mx-5 "/></a>
 						<a href="#" target="blank"><InstagramIcon className="intro-icon"/></a>

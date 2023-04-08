@@ -38,7 +38,7 @@ const Navbar = () => {
 			        </li>
 			      </ul>
 			      <ul className="navbar-nav">
-			      <li className="nav-item"><Link spy={true} smooth={true} offset={-70} to="contact" activeClass="activeClass" className="btn px-4 btn-orange nav-link cursor-pointer" >Contact</Link></li>		     	 
+			      <li className="nav-item"><Link spy={true} smooth={true} offset={-70} to="contact" activeClass="activeClass" className="btn px-4 btn-orange nav-lin cursor-pointer" >Contact</Link></li>		     	 
 			      </ul>
 			    </div>
 			  </div>

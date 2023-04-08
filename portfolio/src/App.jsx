@@ -21,7 +21,7 @@ function App() {
       color:darkmode ? 'white' :'',
   }}
     >
-    {/* <Particle/> */}
+    <Particle/>
       <Intro/>
       <Services/>
       <Project/>
