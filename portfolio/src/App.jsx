@@ -13,7 +13,6 @@ import {useSelector,useDispatch} from 'react-redux';
 
 function App() {
   const darkmode = useSelector((state)=>state);
-  console.log(darkmode);
   return (
     <div className="App"
     style={{

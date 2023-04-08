@@ -44,7 +44,7 @@ window.scrollTo(0, 0)
 						 </div>
 						<img src={Vector1} className="img-fluid intro-img1" data-aos="fade-left"/>
 						<img src={Vector2} className="img-fluid intro-img2" data-aos="fade-right"/>
-						<img src={Boy} className="img-fluid intro-img3" data-aos="flip-up" />
+						<img src={Boy} className="img-fluid intro-img3"  />
 						<div className="blur-1"> </div>
 						<div className="blur-2"> </div>
 					</div>
