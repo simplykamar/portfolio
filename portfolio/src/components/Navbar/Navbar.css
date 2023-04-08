@@ -1,0 +1,24 @@
+.bg-light{
+	background-color:white !important;
+	font-size:20px
+}
+
+.navbar-brand{
+	font-size: 2rem
+}
+.navbar-toggler:focus{
+	box-shadow:none;
+}
+.nav-link:hover{
+/*	border-top:1.7px solid var(--orange) !important;*/
+	border-bottom:1.8px solid var(--orange) !important;
+/*	border-radius:5px*/
+}
+.activeClass{
+/*	font-weight:bold;*/
+/*	color:var(--yellow) !important;*/
+	border-bottom:1.8px solid var(--orange) !important;
+/*	border-top:1.5px solid var(--orange) !important;*/
+/*	border-radius:5px*/
+
+}

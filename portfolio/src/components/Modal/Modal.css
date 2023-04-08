@@ -1,0 +1,20 @@
+.modal-content{
+/*	background-image:url('../../../src/img/service.jpg');*/
+	background-color:red;
+	background-position:center;
+	background-repeat: no-repeat;
+	position:normal !important;
+
+}
+.modal-header {
+    border-bottom: 0 none;
+}
+
+.modal-content {
+    margin: 2px auto;
+    z-index: 1100 !important;
+}
+.modal-body {
+    margin: 2px auto;
+    z-index: 1500 !important;
+}

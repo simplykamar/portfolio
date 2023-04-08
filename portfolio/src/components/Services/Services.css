@@ -1,0 +1,49 @@
+.services-wrapper{
+	height:100vh;
+}
+.services-right{
+	position: relative;
+}
+
+.blur-l{
+	position: absolute;
+	right:0;
+	top:5%;
+	width:5rem;
+	height: 8rem;
+	background: #12FFF7;
+	filter: blur(60px);
+	z-index: -1;
+}
+
+.blur-r{
+	position: absolute;
+	bottom: -50%;
+	left:-10%;
+	width:5rem;
+	height: 8rem;
+	background: #9D50BB;
+	filter: blur(60px);
+	z-index: -1;
+} 
+.services-right-mobile{
+		display:none !important;
+	}
+
+@media screen and (max-width:480px){
+	.services-wrapper{
+		height:100%;
+	}
+	.blur-r, .blur-l{
+		display: none;
+	}
+	.services-right{
+		margin-top:80px ;
+	}
+	.services-right-mobile{
+		display:block !important;
+	}
+	.services-right-desktop{
+		display:none !important;
+	}
+}

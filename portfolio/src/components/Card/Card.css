@@ -1,0 +1,23 @@
+.services-card{
+		width:13rem;
+		border-radius:15px;
+		border:5px solid #f5c32ca6;
+	}
+
+.services-imoji{
+/*	transform:scale(.4);*/
+	width:5rem;
+	height:5rem;
+}
+.card-button:hover{
+	background-color:white;
+	color:#064eb9;
+	border:1px solid #064eb9;
+}
+.card-text{
+	font-size:17px;
+}
+
+.card{
+	transition: all ease .7s
+}

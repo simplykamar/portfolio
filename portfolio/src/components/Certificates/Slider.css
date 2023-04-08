@@ -1,0 +1,12 @@
+.swiper-pagination-bullet {
+	background:var(--orange);
+	}
+.swiper-button-next, .swiper-button-prev { 
+	color: var(--orange) !important; 
+}
+.swiper-pagination-progressbar-fill{
+	background:var(--orange) !important;
+}
+/*.swiper-pagination-progressbar{
+	background:var(--gray) !important;
+}*/

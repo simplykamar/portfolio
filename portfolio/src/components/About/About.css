@@ -1,0 +1,16 @@
+
+.about-container{
+	/*border-top-: 3px solid var(--orange);
+	border-bottom: 3px solid var(--orange);
+	border-radius:20px;*/
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-right: 3px solid var(--orange);
+	border-left: 3px solid var(--orange);
+}
+.text-justify{
+	text-align:justify;
+	
+}

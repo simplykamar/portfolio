@@ -1,0 +1,15 @@
+.proj-card-img-top{
+	height:250px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	transition:all 2s;
+}
+.proj-card{
+	border-top: 6px solid var(--orange);
+	border-bottom: 6px solid var(--orange);
+	border-radius:20px;
+	height:500px;
+}
+.proj-card:hover .proj-card-img-top{
+	transform:scale(1.2);
+}

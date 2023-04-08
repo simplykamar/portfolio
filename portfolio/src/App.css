@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600&family=Nanum+Gothic&family=Poppins:wght@200&display=swap');
+
+:root{
+	 --yellow: #F5C32C;
+    --orange : #FCA61F;
+    --black : #242D49;
+    --gray : #788097;
+    --blueCard : #DDF8FE;
+    --purple: rgb(238 210 255);
+}
+
+*{margin:0;padding:0}
+@font-face{
+        font-family: Gumela;
+        src: url('./src/font/*')
+      }
+html,body{
+    user-select: none;
+/*	font-family: 'Poppins', sans-serif;*/
+/*	font-family: 'Nanum Gothic', sans-serif;*/
+/*	font-family: 'Golos Text', sans-serif;*/
+  font-family: Gumela;
+  overflow-x:hidden;
+
+}
+.cursor-pointer{
+    cursor:pointer;
+}
+.btn-orange{
+    background-color:var(--orange);
+    border-radius: 10px;
+    border-radius: 20px;
+    color: white !important;
+    font-size:18px;
+    box-shadow: 0px 20px 30px 3px rgba(251, 161, 40, 0.5) !important;
+}
+
+.btn:focus{
+    box-shadow:none !important;
+}
+.btn-orange:hover{
+    background-color:white;
+    color: var(--orange) !important;
+    border:1px solid var(--yellow);
+}
+.font-size-20{
+    font-size:20px
+}
+.text-orange{
+    color:var(--orange);
+}
+.text-gray{
+    color:var(--gray);
+}
+.text-yellow{
+    color:var(--yellow);
+}
+.text-black{
+    color:#4e545a;
+}
+.title-1{
+    font-size:3rem;
+}
+
+.inner{
+    overflow:hidden;
+}
+/*.card:hover .card-img-top{
+    transform:scale(1.1);
+    transition:all ease 2s;
+}*/

@@ -1,0 +1,12 @@
+.floating-card{
+	width:14rem;
+	height:8rem;
+	border-radius:20px;
+	z-index:20;
+	font-size:20px;
+
+
+}
+.floating-img{
+	transform:scale(.5);
+}
