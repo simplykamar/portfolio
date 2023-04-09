@@ -14,6 +14,7 @@ const Particle = () => {
     const particlesLoaded = useCallback(async container => {
     }, []);
     return (
+        <div className="d-lg-none">
         <Particles
             id="tsparticles"
             init={particlesInit}
@@ -91,6 +92,7 @@ const Particle = () => {
                 detectRetina: true,
             }}
         />
+        </div>
     );
 };
 
