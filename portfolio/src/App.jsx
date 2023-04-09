@@ -10,9 +10,17 @@ import About from './components/About/About'
 import Slider from './components/Certificates/Slider'
 import Skills from './components/Skills/Skills'
 import {useSelector,useDispatch} from 'react-redux';
-
+import {useEffect,useState} from 'react';
+import { Rings  } from 'react-loader-spinner'
 function App() {
   const darkmode = useSelector((state)=>state);
+  const [loaded,setLoaded] = useState(false);
+  useEffect(()=>{
+    let timer = setTimeout(()=>setLoaded(true),5000);
+    return ()=>{
+      clearTimeout(timer);
+    };
+  },[])
   return (
     <div className="App"
     style={{
@@ -20,17 +28,23 @@ function App() {
       color:darkmode ? 'white' :'',
   }}
     >
-    <Particle/>
-      <Intro/>
-      <Services/>
-      <Project/>
-      <Skills/>
-      <Slider/>
-      <Hobby/>
-      <About/>
-      <Work/>
-      <Footer/>
+    { loaded ?<div>
+                <Particle/>
+                <Intro/>
+                <Services/>
+                <Project/>
+                <Skills/>
+                <Slider/>
+                <Hobby/>
+                <About/>
+                <Work/>
+                <Footer/>
+              </div>
+    :
+        <div className="d-flex justify-content-center align-items-center vh-100"><Rings color="#FCA61F"/></div>
+  }
     </div>
+
   )
 }
 
