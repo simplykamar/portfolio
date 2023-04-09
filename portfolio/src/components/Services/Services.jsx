@@ -29,7 +29,7 @@ const Services = () => {
 								<Card title="Backend" img={Heart} text="Python, Django, DRF Rest Framework, API Development"/>
 							</div>
 
-							<div style={{position:'absolute', top:'130%',left:'45%'}}>
+							<div style={{position:'absolute', top:'100%',left:'45%'}}>
 								<Card title="DataBase" img={Humble} text="MySQL, MongoDB"/>
 							</div>
 						</div>
