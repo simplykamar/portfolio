@@ -2,7 +2,7 @@ import './Card.css'
 import {useSelector} from 'react-redux';
 
 
-const Card = ({title,text,link,img}) => {
+const Card = ({title,text,link,img,isLink}) => {
   const darkmode = useSelector((state)=>state);
 
 	return(
@@ -21,7 +21,12 @@ const Card = ({title,text,link,img}) => {
 						<h4 className="card-title text-orange">{title}</h4>
 						<p className="card-text text-gray">{text}</p>
 						<div className="text-right">
+							{ isLink?
 							<a href={link} target="blank" className="fw-bolder text-decoration-none">Click here to see</a>
+							:
+							<p className="fw-bolder text-decoration-line-through text-primary">Click here to see</p>
+							}
+					
 						</div>
 					</div>	
 				</div>
