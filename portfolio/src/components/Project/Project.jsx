@@ -5,6 +5,7 @@ import JsChallenge from '../../../src/img/30DaysOfJavaScript.jpg';
 import MailSystem from '../../../src/img/mail-system.jpg';
 import FoodOrdering from '../../../src/img/food-ordering-system.jpg';
 import BigDaddy from '../../../src/img/proj7.png';
+import ToDoList from '../../../src/img/proj8.png';
 
 const Project = () => {
 	return(
@@ -50,8 +51,16 @@ const Project = () => {
 						<Card
 							 img={FoodOrdering}
 							 title="Food Ordering System"
-							 text="The Online Food ordering system is a process in which one can order various foods and beverages from some local restaurant and hotels through the use of internet, just by sitting at home or any place. And the order is delivered to the told location"
+							 text="The Online Food ordering system is a process in which one can order various foods and beverages from some local restaurant and hotels through the use of internet, just by sitting at home or any place. And the order is delivered to the told location."
 							 link="https://restro.pythonanywhere.com/foodie/"
+							 />
+					</div>
+					<div className="col-lg-4 col-md-4 col-sm-12 col-12 my-5 my-lg-0 my-md-0">
+						<Card
+							 img={ToDoList}
+							 title="To Do List App"
+							 text="To Do List App made with React, Redux and json-server."
+							 link="#"
 							 />
 					</div>
 					
