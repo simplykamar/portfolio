@@ -9,8 +9,7 @@ const Services = () => {
 			<div className="container-fluid my-5 p-5 services-wrapper" id="services">
 				<div className="row mt-5 pt-lg-5">
 					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 services-right">
-						<h2 className="display-5 font-weight-bolder" data-aos="fade-right">My Awesome</h2>
-						<h4 className="display-4 text-orange" data-aos="fade-left">Services</h4>
+						<h4 className="display-4 text-orange" data-aos="fade-left"><span className="text-dark">My</span> Services</h4>
 						<p className="text-gray font-size-20" data-aos="flip-up">Full stack Developer with high level Of experience in web designing and
 						development, producing the Quality work.</p>
 						<p className="text-gray display-6" data-aos="flip-up">
@@ -29,12 +28,12 @@ const Services = () => {
 								<Card title="Backend" img={Heart} text="Python, Django, DRF Rest Framework, API Development"/>
 							</div>
 
-							<div style={{position:'absolute', top:'100%',left:'45%'}}>
+							<div style={{position:'absolute', top:'120%',left:'45%'}}>
 								<Card title="DataBase" img={Humble} text="MySQL, MongoDB"/>
 							</div>
 						</div>
 						{/* for mobile */}
-						<div className="services-right-mobile container">
+						<div className="services-right-mobile ms-5">
 						<div className="row ">
 							<div className="col-lg-6 col-md-6 col-sm-12 col-12">
 								<div>

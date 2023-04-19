@@ -24,7 +24,9 @@ window.scrollTo(0, 0)
 				<div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 intro-left-mobile">
 					<h2 className="display-5  font-weight-bolder" data-aos="fade-right">Hey! I Am</h2>
 					<h4 className="display-4  text-orange" data-aos="fade-left">Kamar Alam</h4>
-					<p className="font-size-20 text-gray" data-aos="flip-up">I am a Full Stack Software Engineer from Agra, INDIA. I have a Experience of 4 web Based live Django project.</p>
+					<p className="font-size-20 text-gray" data-aos="flip-up">
+					I am a Full Stack Software Engineer from Agra, INDIA. I have a Experience of 4 web Based live React with Django project.
+					</p>
 					<a href = "mailto: simplykamaralam@gmail.com" className="btn btn-orange px-4 mt-5" data-aos="flip-up">Hire me</a>
 					<div className="intro-icons ms-5" >
 						<a href="https://github.com/simplykamar" target="blank"><GitHubIcon className="intro-icon"/></a>

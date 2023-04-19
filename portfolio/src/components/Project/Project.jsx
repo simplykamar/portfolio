@@ -68,9 +68,9 @@ const Project = () => {
 						<Card
 							 img={ToDoList}
 							 title="To Do List App"
-							 text="To Do List App made with React, Redux and json-server."
-							 link="#"
-						 	 isLink={false}
+							 text="To Do List App made with React and django rest framework."
+							 link="https://kamar-todo.netlify.app/"
+						 	 isLink={true}
 
 							 />
 					</div>
