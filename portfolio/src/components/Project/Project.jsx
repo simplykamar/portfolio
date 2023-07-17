@@ -36,7 +36,7 @@ const Project = () => {
 						 img={Ecommerce}
 						 title="E-commerce System"
 						 text="E-commerce System is a online project that written in python framework Django. This E-commerce system provide a search product, filter item, login, signup, buy product and track product functionality."
-						 link="#"
+						 link="https://alishop.pythonanywhere.com/"
 						 isLink={false}
 
 						 />
