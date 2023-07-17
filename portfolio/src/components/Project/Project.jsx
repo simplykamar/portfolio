@@ -24,10 +24,10 @@ const Project = () => {
 					
 					<div className="col-lg-4 col-md-4 col-sm-12 col-12 my-5 my-lg-0 my-md-0">
 						<Card
-							 img={ToDoList}
-							 title="To Do List App"
-							 text="To Do List App made with React and django rest framework."
-							 link="https://kamar-todo.netlify.app/"
+							 img={FoodOrdering}
+							 title="Food Ordering System"
+							 text="The Online Food ordering system is a process in which one can order various foods and beverages from some local restaurant and hotels through the use of internet, just by sitting at home or any place. And the order is delivered to the told location."
+							 link="https://restro.pythonanywhere.com/foodie/"
 						 	 isLink={true}
 
 							 />
@@ -43,20 +43,12 @@ const Project = () => {
 
 						 />
 					</div>
+					
 				</div>	
 
 				<div className="row mt-5">
 					
-					<div className="col-lg-4 col-md-4 col-sm-12 col-12 my-5 my-lg-0 my-md-0">
-						<Card
-							 img={FoodOrdering}
-							 title="Food Ordering System"
-							 text="The Online Food ordering system is a process in which one can order various foods and beverages from some local restaurant and hotels through the use of internet, just by sitting at home or any place. And the order is delivered to the told location."
-							 link="https://restro.pythonanywhere.com/foodie/"
-						 	 isLink={true}
-
-							 />
-					</div>
+					
 					<div className="col-lg-4 col-md-4 col-sm-12 col-12 my-5 my-lg-0 my-md-0">
 						<Card
 						 img={MailSystem}
@@ -66,6 +58,16 @@ const Project = () => {
 						 isLink={true}
 
 						 />
+					</div>
+					<div className="col-lg-4 col-md-4 col-sm-12 col-12 my-5 my-lg-0 my-md-0">
+						<Card
+							 img={ToDoList}
+							 title="To Do List App"
+							 text="To Do List App made with React and django rest framework."
+							 link="https://kamar-todo.netlify.app/"
+						 	 isLink={true}
+
+							 />
 					</div>
 					<div className="col-lg-4 col-md-4 col-sm-12 col-12">
 						<Card
