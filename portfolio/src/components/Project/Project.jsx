@@ -38,7 +38,7 @@ const Project = () => {
 						 img={JsChallenge}
 						 title="30 Days Of JavaScript"
 						 text="A 30 Days Of JavaScript challenge to learn JavaScript by making 30 different projects."
-						 link="https://simplykamar.me/30DaysOfJavaScript/30DaysOfJs/home.html"
+						 link="https://simplykamar.github.io/30DaysOfJavaScript/30DaysOfJs/home.html"
 						 isLink={true}
 
 						 />
