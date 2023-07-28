@@ -16,7 +16,7 @@ const Services = () => {
 							I bring <span className="text-orange text-decoration-underline">ideas</span> to web
 						</p>
 						
-						<button className="btn btn-orange mt-3" data-aos="fade-up">Download CV</button>
+						<Link to="./kamar.pdf" className="btn btn-orange mt-3" data-aos="fade-up">Download CV</Link>
 					</div>
 					<div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 services-right">
 						<div className="services-right-desktop">
