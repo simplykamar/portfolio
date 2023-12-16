@@ -25,7 +25,7 @@ window.scrollTo(0, 0)
 					<h2 className="display-5  font-weight-bolder" data-aos="fade-right">Hey! I Am</h2>
 					<h4 className="display-4  text-orange" data-aos="fade-left">Kamar Alam</h4>
 					<p className="font-size-20 text-gray" data-aos="flip-up">
-					I am a Full Stack Software Engineer from Agra, INDIA. I have a Experience of 4 web Based live React with Django project.
+					I am a Full Stack Software Engineer from Agra, INDIA.
 					</p>
 					<a href = "mailto: simplykamaralam@gmail.com" className="btn btn-orange px-4 mt-5" data-aos="flip-up">Hire me</a>
 					<div className="intro-icons ms-5" >

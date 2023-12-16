@@ -20,6 +20,10 @@ const Skills = () => {
 							<div className="progress mb-2">
     							<div className="progress-bar progress-bar-striped progress-bar-animated " style={{width:'70%',backgroundColor:'#ff7410'}}></div>
   							</div>
+  						<p className="text-gray font-size-20 d-inline">Material UI</p>
+							<div className="progress mb-2">
+    							<div className="progress-bar progress-bar-striped progress-bar-animated " style={{width:'100%',backgroundColor:'#ff7410'}}></div>
+  							</div>
   						<p className="text-gray font-size-20 d-inline">Bootstrap5</p>
 							<div className="progress mb-2">
     							<div className="progress-bar progress-bar-striped progress-bar-animated " style={{width:'100%',backgroundColor:'#ff7410'}}></div>
@@ -41,7 +45,7 @@ const Skills = () => {
   							</div>
   						<p className="text-gray font-size-20 d-inline">Django Rest Framework</p>
 							<div className="progress mb-2">
-    							<div className="progress-bar progress-bar-striped progress-bar-animated " style={{width:'50%',backgroundColor:'#ff7410'}}></div>
+    							<div className="progress-bar progress-bar-striped progress-bar-animated " style={{width:'90%',backgroundColor:'#ff7410'}}></div>
   							</div>
 						</div>
 					</div>
@@ -54,7 +58,7 @@ const Skills = () => {
   							</div>
   						<p className="text-gray font-size-20 d-inline">MySQL</p>
 							<div className="progress mb-2">
-    							<div className="progress-bar progress-bar-striped progress-bar-animated " style={{width:'50%',backgroundColor:'#ff7410'}}></div>
+    							<div className="progress-bar progress-bar-striped progress-bar-animated " style={{width:'70%',backgroundColor:'#ff7410'}}></div>
   							</div>
 						</div>
 						{/* <div className="col-lg-6 col-md-6 col-sm-12 col-12"> */}

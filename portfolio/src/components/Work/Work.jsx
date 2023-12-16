@@ -34,7 +34,7 @@ const Work = () => {
 				</p>
 				<div data-aos="fade-up">	
 						<h4 className="fw-bold text-black">Email</h4>
-						<p className="font-size-20 text-gray"><EmailIcon/> simplykamaralam@gmail.com</p>
+						<p className="font-size-20 text-gray"><EmailIcon/> workwithkamar@gmail.com</p>
 						<h4 className="fw-bold text-black">Phone No.</h4>
 						<a href="tel:9634142017" className="font-size-20 text-gray text-decoration-none text-gray"><CallIcon/> +91 9634142017</a>
 					</div>	

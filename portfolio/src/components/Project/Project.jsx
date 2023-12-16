@@ -6,18 +6,28 @@ import MailSystem from '../../../src/img/mail-system.jpg';
 import FoodOrdering from '../../../src/img/food-ordering-system.jpg';
 import BigDaddy from '../../../src/img/proj7.png';
 import ToDoList from '../../../src/img/proj8.png';
+import yasgifts from '../../../src/img/proj9.png';
 
 const Project = () => {
 	return(
 			<div className="container" id="project">
 				<h4 className="display-4 my-5 mt-3 text-orange text-center" data-aos="fade-right">Projects</h4>
-				<div className="row">
+				<div className="row mt-5">
+					<div className="col-lg-4 col-md-4 col-sm-12 col-12">
+						<Card
+						 img={yasgifts}
+						 title="yasgifts.me"
+						 text="Project aimed to create a online gifting marketplace, facilitating the collaboration of over 1000 vendors to showcase and sell their gift items to customers."
+						 link="https://yasgifts.me/"
+						 isLink={true}
+						 />
+					</div>
 					<div className="col-lg-4 col-md-4 col-sm-12 col-12">
 						<Card
 						 img={BigDaddy}
 						 title="Restaurant App"
-						 text="This App is created for Restaurant to show case there foodies online and also place order online."
-						 link="https://bigdaddyforfoodies.live/"
+						 text="This App is created for BigDaddyForFoodies Restaurant to recieve order and enhance restaurant's digital presence."
+						 link="https://bigdaddy.netlify.app"
 						 isLink={true}
 						 />
 					</div>
@@ -32,8 +42,11 @@ const Project = () => {
 
 							 />
 					</div>
-					
-					<div className="col-lg-4 col-md-4 col-sm-12 col-12">
+										
+				</div>	
+
+				<div className="row mt-5">	
+				<div className="col-lg-4 col-md-4 col-sm-12 col-12 my-5 my-lg-0 my-md-0">
 						<Card
 						 img={JsChallenge}
 						 title="30 Days Of JavaScript"
@@ -43,13 +56,7 @@ const Project = () => {
 
 						 />
 					</div>
-					
-				</div>	
-
-				<div className="row mt-5">
-					
-					
-					<div className="col-lg-4 col-md-4 col-sm-12 col-12 my-5 my-lg-0 my-md-0">
+					<div className="col-lg-4 col-md-4 col-sm-12 col-12 ">
 						<Card
 						 img={MailSystem}
 						 title="@mps mail System"
@@ -69,6 +76,9 @@ const Project = () => {
 
 							 />
 					</div>
+					
+				</div>	
+				<div className="row mt-5">
 					<div className="col-lg-4 col-md-4 col-sm-12 col-12">
 						<Card
 						 img={Ecommerce}
@@ -79,8 +89,7 @@ const Project = () => {
 
 						 />
 					</div>
-					
-				</div>			
+				</div>		
 			</div>
 		);
 
