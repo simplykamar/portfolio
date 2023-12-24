@@ -16,7 +16,7 @@ const Services = () => {
 							I bring <span className="text-orange text-decoration-underline">ideas</span> to web
 						</p>
 						
-						<a href="https://drive.google.com/file/d/1Oh0_xGRRSXb_xN9wQERaSUFx9jvO6TZW/view?usp=drive_link" className="btn btn-orange mt-3" data-aos="fade-up">Download CV</a>
+						<a href="https://drive.google.com/file/d/1iI4GRCYUTFi9SQYCpq2aJMw47rCqFmgD/view?usp=sharing" className="btn btn-orange mt-3" data-aos="fade-up">Download CV</a>
 					</div>
 					<div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 services-right">
 						<div className="services-right-desktop">
